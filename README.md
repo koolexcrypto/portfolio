@@ -1,10 +1,12 @@
-# Audit Portfolio
 
-## For solo/private audit
+# About me
+Independent security researcher, participated in multiple audits (mostly EVM-based smart contracts) since November, 2022.
+
+# For Solo/Private Audit
 - DM me via [Twitter @KoolexC](https://twitter.com/KoolexC)  
 
-
-## Stats
+--- 
+# Portfolio
 
 ### Participation
 16 Audits
@@ -15,7 +17,7 @@
 - Medium-risk: 15
 
 
-
-## Links:
+---
+# Links:
 - [Twitter Profile @KoolexC](https://twitter.com/KoolexC)
 - [Code4rena Profile @Koolex](https://code4rena.com/@Koolex)
