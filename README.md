@@ -1,6 +1,6 @@
 # Audit Portfolio
 
-## For solo/private audit:
+## For solo/private audit
 - DM me via [Twitter @KoolexC](https://twitter.com/KoolexC)  
 
 
