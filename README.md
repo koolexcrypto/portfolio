@@ -14,7 +14,7 @@ Independent security researcher, participated in multiple audits (mostly EVM-bas
 
 ### Security Issues Found
 - High-risk: 27
-- Medium-risk: 15
+- Medium-risk: 18
 
 
 ---
