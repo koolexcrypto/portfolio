@@ -17,7 +17,7 @@ Independent security researcher, participated in multiple audits (mostly EVM-bas
 - Medium-risk: 18
 
 
-### Various Types of Issues Found
+### Examples of Various Issues Found
 
 | Protocol      | Type | Severity |  Title |
 | ----------- | ----------- | ----------- | ----------- |
