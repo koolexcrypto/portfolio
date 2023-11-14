@@ -9,7 +9,7 @@ Independent security researcher, participated in multiple audits (mostly EVM-bas
 # Portfolio
 
 ### Participation
-16 Audits
+17 Audits
 
 
 ### Security Issues Found
