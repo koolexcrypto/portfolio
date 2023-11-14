@@ -19,7 +19,7 @@ Independent security researcher, participated in multiple audits (mostly EVM-bas
 
 ### Various Types of Issues Found
 
-| Protocol      | Type | Severity |  Description |
+| Protocol      | Type | Severity |  Title |
 | ----------- | ----------- | ----------- | ----------- |
 | Astaria   | Funds draining        | High        | [Lack of StrategyDetailsParam.vault validation allows the borrower to steal all the funds from the vault](https://github.com/code-423n4/2023-01-astaria-findings/issues/409)       |
 | Ajna      | DoS       | High       | [The lender won't be able to claim rewards in some cases and most of RewardsManager's methods (e.g. staking, unstaking ..etc) will revert](https://github.com/code-423n4/2023-05-ajna-findings/issues/354)       |
