@@ -17,6 +17,16 @@ Independent security researcher, participated in multiple audits (mostly EVM-bas
 - Medium-risk: 18
 
 
+### Various Types of Issues Found
+
+| Protocol      | Type | Severity |  Description |
+| ----------- | ----------- | ----------- | ----------- |
+| Ajna      | DoS       | High       | [The lender won't be able to claim rewards in some cases and most of RewardsManager's methods (e.g. staking, unstaking ..etc) will revert](https://github.com/code-423n4/2023-05-ajna-findings/issues/354)       |
+| Caviar   | Stealing NFT Assets        | High        | [ETHRouter doesn't revoke the ERC721's approvalForAll of the pool after the operation (e.g. sell) is finished](https://github.com/code-423n4/2023-04-caviar-findings/issues/184)       |
+
+
+
+
 ---
 # Links:
 - [Twitter Profile @KoolexC](https://twitter.com/KoolexC)
