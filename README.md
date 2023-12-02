@@ -2,7 +2,7 @@
 # About me
 Independent security researcher, participated in multiple audits (mostly EVM-based smart contracts) since November, 2022.
 
-# For Solo/Private Audit
+# For Private Audit
 - DM me via [Twitter @KoolexC](https://twitter.com/KoolexC)  
 
 --- 
