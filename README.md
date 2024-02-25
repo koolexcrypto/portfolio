@@ -8,13 +8,19 @@ Independent security researcher, participated in multiple audits (mostly EVM-bas
 --- 
 # Portfolio
 
+
+### Ranking on Code4rena (till 25th Feb up-to-date)
+- 90-day: #20
+- 2023: #27
+- All-time: #67
+
 ### Participation
 18 Audits
-
 
 ### Security Issues Found
 - High-risk: 27
 - Medium-risk: 21
+
 
 
 ### Highlights of Various Issues Found
