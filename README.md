@@ -9,12 +9,12 @@ Independent security researcher, participated in multiple audits (mostly EVM-bas
 # Portfolio
 
 ### Participation
-17 Audits
+18 Audits
 
 
 ### Security Issues Found
 - High-risk: 27
-- Medium-risk: 18
+- Medium-risk: 21
 
 
 ### Highlights of Various Issues Found
