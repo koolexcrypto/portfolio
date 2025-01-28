@@ -1,6 +1,6 @@
 
 # About me
-Independent security researcher, participated in multiple audits (mostly EVM-based smart contracts).
+Independent security researcher, participated in many audits (mostly SVM & EVM-based).
 
 # For Private Audit, DM me via
 - [Twitter @KoolexC](https://twitter.com/KoolexC)
@@ -8,8 +8,39 @@ Independent security researcher, participated in multiple audits (mostly EVM-bas
 --- 
 # Portfolio
 
+## Rust & SVM-based audits (till 28th Jan, 2025 up-to-date)
 
-### Ranking on Code4rena (till 6th April, 2024 up-to-date)
+### Engagements
+- Pump Fun
+  - no need for an introduction, I guess.
+  - Report: N/A
+- Pump Science
+  - a Solana-based program that facilitates token launches with a
+bonding curve, dynamic fee structures and automated liquidity management. It
+works by using a constant product bonding curve where token and SOL reserves
+dynamically adjust based on purchases.
+  - Report: https://github.com/pashov/audits/blob/master/team/pdf/PumpScience-security-review_2024-12-24.pdf
+- Hydration 
+  - a DeFi protocol on Polkadot, offering an 'Omnipool' that combines all
+  assets into a single, highly efficient trading pool, reducing slippage and increasing
+  capital efficiency
+  - Report: https://github.com/pashov/audits/blob/master/team/pdf/Hydration-security-review-October.pdf
+
+
+
+### Highlights of Various Issues Found
+
+| Protocol | Type | Severity |  Title | Summary |
+| ----------- |----------- | ----------- | ----------- | ----------- |
+| Pump Science   | Token Program/ATA Validation   | Critical/High        | Meteora's lock pool can be DoSed | When Pump attempts to lock LP tokens on Meteora's protocol, it uses an account's SOL balance to check if an Associated Token Account exists. An attacker can exploit this by sending SOL to prevent ATA creation, which breaks the lock pool functionality since LP tokens can't be properly stored. This enables a denial of service attack on Pump's ability to interact with Meteora's pool locking system. |
+| Pump Science   | Business Logic   | Critical/High        | Bonding curve creators can manipulate the fee structure by setting start slots in the past | Bonding curve is meant to begin with high fees and gradually decrease, creators can bypass this intended progression by backdating their start slot, immediately placing them at a lower fee tier than intended.
+
+
+
+
+## Competitions on Code4rena (till 6th April, 2024 up-to-date)
+
+### Ranking
 - 90-day: #20
 - 2023: #30
 - All-time: #67
